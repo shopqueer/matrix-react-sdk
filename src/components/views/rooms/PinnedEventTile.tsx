@@ -19,8 +19,7 @@ import React, { JSX, useCallback, useState } from "react";
 import { EventTimeline, EventType, MatrixEvent, Room } from "matrix-js-sdk/src/matrix";
 import { IconButton, Menu, MenuItem, Separator, Text } from "@vector-im/compound-web";
 import { Icon as ViewIcon } from "@vector-im/compound-design-tokens/icons/visibility-on.svg";
-// TODO replace by unpin icon
-import { Icon as UnpinIcon } from "@vector-im/compound-design-tokens/icons/pin.svg";
+import { Icon as UnpinIcon } from "@vector-im/compound-design-tokens/icons/unpin.svg";
 import { Icon as ForwardIcon } from "@vector-im/compound-design-tokens/icons/forward.svg";
 import { Icon as TriggerIcon } from "@vector-im/compound-design-tokens/icons/overflow-horizontal.svg";
 import { Icon as DeleteIcon } from "@vector-im/compound-design-tokens/icons/delete.svg";
